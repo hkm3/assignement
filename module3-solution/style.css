@@ -1,0 +1,215 @@
+*{
+box-sizing: border-box;
+font-style:italic;
+}
+
+.container{
+height: 100px;
+}
+#header-nav{
+background-color:#BC8F8F;
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+   font-family: Consolas, monospace;
+  color: black;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 15px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand #second-style{
+
+font-weight: bold;
+color: #000080;
+font-size: 1.9em;
+text-align : center;
+margin-top:5px;
+}
+
+.navbar-header img{
+border-radius: 50%;
+clear: right;
+height: 120px;
+width: 120px;
+margin-top : 20px;
+margin-bottom: 10px;
+margin-right: 20px;
+
+}
+.navbar-toggle{
+margin-right: -05px;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+
+
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+#collapsable-nav {
+background-color: white;
+padding : 0 auto;
+}
+
+
+
+#nav-list li {
+  border-bottom: 1px solid #000; /* This creates a solid line between list items */
+   /* Adjust this as needed for spacing */
+  list-style: none; /* Removes the default list bullet or numbering */
+}
+#nav-list > li:first-child {
+  /* Your styles for the first <li> */
+margin-top : -7px;
+}
+
+#nav-list li:nth-child(3) {
+margin-bottom: -7px;
+
+}
+
+/* section*/
+.row{
+padding-top : 20px ;
+background-color: white;
+}
+
+h2{
+text-align: center;
+font-family: Consolas, monospace;
+color: black;
+font-size: 2.5em;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+#para {
+  border: 1px solid black;
+  background-color: gray;
+  width: 95%;
+  height: 490px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom : 20px;
+  padding : 45px 15px 20px 15px;
+  font-family: Helvetica;
+  font-style:bold;
+  color: black;
+  position:relative;
+
+}
+#para1 {
+  border: 1px solid black;
+  background-color: gray;
+  width : 95%;
+  height: 490px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom : 20px;
+  padding : 45px 15px 20px 15px;
+  font-family: Helvetica;
+  font-style:bold;
+  color: black;
+  position:relative;
+
+}
+
+#chicken{
+position: absolute;
+top: 0%;
+left:30%;
+text-align : center;
+font-weight: bold;
+font-size: 1.8em;
+}
+#beef{
+position: absolute;
+top:0%;
+left:40%;
+text-align : center;
+font-weight: bold;
+font-size: 1.8em;
+}
+#suchi{
+position: absolute;
+top:0%;
+left: 40%;
+text-align : center;
+font-weight: bold;
+font-size: 1.8em;
+}
+
+
+@media (min-width: 992px){
+#header-nav .container{
+height: 150px;
+}
+.row #para1{
+width : 97.5%;
+}
+.row #para{
+width : 97.5%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+.navbar-brand h1 { /* Restaurant name */
+  margin-top: 7px;
+}
+
+.row #para1{
+width : 97.5%;
+}
+
+}
+
+
+@media (max-width: 767px) {
+
+#collapsable-nav {
+padding:0 auto;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right:5px;
+  }
+
+.navbar-brand h1{
+font-size: 2.0em;
+
+}
+
+.navbar-brand #second-style{
+font-size: 1.5em;
+}
+#chicken{
+position: absolute;
+top: 0%;
+left:40%;
+text-align : center;
+font-weight: bold;
+font-size: 1.8em;
+}
+
+}
+
+
+
